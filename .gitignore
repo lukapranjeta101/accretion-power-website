@@ -1,0 +1,41 @@
+# Real environment files; retain documented examples.
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Build output and caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+.turbo/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+.coverage.*
+
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
